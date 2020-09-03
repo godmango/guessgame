@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Guess WHat</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="gamebody">
+			<h1 class="title">GuessGame</h1>
+			<div class="blankbutton">
+				<input type="text" id="userInput" />
+				<button id="enter" onclick="guess()">Guess</button>
+			</div>
+			<div class="infobutton">
+				<div id="problem"></div>
+				<div id="resultArea"></div>
+				<button onclick="resetGame()">Reset</button>
+				<div id="guesses">Number of guesses left: 5</div>
+			</div>
+			<div class="stopwatch">
+				<div>Game over in <span id="time">40</span> seconds!</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>

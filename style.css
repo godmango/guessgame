@@ -1,0 +1,27 @@
+.title {
+	text-align: center;
+}
+
+.blankbutton {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+
+.infobutton {
+	text-align: center;
+}
+
+.stopwatch {
+	font-size: xx-large;
+	text-align: center;
+	padding: 30px;
+	margin-top: 20px;
+	color: red;
+}
+
+.gamebody {
+	background-color: rgb(238, 223, 85);
+	border: 10px solid black;
+	padding: 70px;
+}
